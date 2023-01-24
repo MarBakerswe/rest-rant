@@ -8,13 +8,17 @@ app.engine('jsx', require('express-react-views').createEngine())
 
 app.use('/places', require('./controllers/places'))
 
+
 app.get('/', (req, res) => {
+    //name of jsx page 'home.jsx'
     res.render('home')
   })
   
-
 app.get('*', (req, res) => {
-  res.send('404 page')
-})
+    //name of jsx page 'error404.jsx;
+    res.render('error404')
+  })
+  
+  
 
 app.listen(process.env.PORT)
