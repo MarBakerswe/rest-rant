@@ -19,6 +19,8 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+
+
 // Wildcard Route
 app.get('*', (req, res) => {
     res.render('error404')
