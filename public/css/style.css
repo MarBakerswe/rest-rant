@@ -3,6 +3,7 @@ nav {
     background-color: cornflowerblue;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
 }
 
 nav ul {
@@ -28,8 +29,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-
-
 h1 {
     text-align: center;
     color: cornflowerblue;
@@ -40,4 +39,26 @@ img{
     width: 50%;
 }
 
+.topheader{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+
+.default{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 15px
+}
+
+.homebttn{
+    align-self: center;
+    text-align: center;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
   
