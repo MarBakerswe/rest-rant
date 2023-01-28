@@ -14,11 +14,12 @@ app.use(express.urlencoded({ extended: true }))
 // Controllers & Routes
 app.use('/places/', require('./controllers/places'))
 
-
+// Route to Home page
 app.get('/', (req, res) => {
     res.render('home')
 })
 
+// Wildcard Route
 app.get('*', (req, res) => {
     res.render('error404')
 })
