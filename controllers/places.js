@@ -5,6 +5,7 @@ router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
+
 //Homepage Index
 router.get('/', (req, res) => {
     let places = [{
