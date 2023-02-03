@@ -29,14 +29,19 @@ nav a:hover {
     text-decoration: none;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: cornflowerblue;
 }
 
+p, h5{
+    text-align: center;
+}
+
 img{
-    height: 70%;
-    width: 50%;
+    float: center;
+    height: 400px;
+    width: 400px;
 }
 
 .topheader{
@@ -60,5 +65,17 @@ img{
 .form{
     width: 50%;
     margin: auto;
+}
+
+.showdivimg{
+    width: 50%;
+}
+
+.showdivtex{
+    width: 50%;
+}
+
+.wrapper{
+    justify-content: space-between;
 }
   
